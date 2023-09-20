@@ -1,0 +1,65 @@
+<div class="section-curses__dev">
+    
+    
+            <!-- 1 -->
+            <div class="section-curses__back">
+                <div class="section-curses__background-back">
+                    <img src="./img/curses/back.svg" alt="back">
+                </div>
+    
+                <div>
+                    <div class="section-curses__back-title">
+                        Back-End
+                    </div>
+        
+                    <div class="section-curses__back-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </div>
+                </div>
+
+                
+    
+            </div>
+    
+            <!-- 2 -->
+            <div class="section-curses__front">
+                <div class="section-curses__background-front">
+                    <img src="./img/curses/front.svg" alt="front">
+                </div>
+
+                <div>
+                    <div class="section-curses__back-title">
+                        Front-End
+                    </div>
+        
+                    <div class="section-curses__back-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </div>  
+                </div>
+               
+    
+    
+            </div>
+    
+            <!-- 3 -->
+    
+            <div class="section-curses__js">
+                <div class="section-curses__background-js">
+                    <img src="./img/curses/js.svg" alt="s">
+                </div>
+                <div>
+                    <div class="section-curses__back-title">
+                        JS Developer
+                    </div>
+        
+                    <div class="section-curses__back-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </div>
+                </div>
+                
+    
+    
+            </div>
+    
+    
+        </div>

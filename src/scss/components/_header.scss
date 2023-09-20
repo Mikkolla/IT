@@ -1,0 +1,145 @@
+.section-header{
+	background: #2F3746;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	
+
+
+	
+  }
+  
+  .header {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  max-width: 1300px;
+	  padding-top: 20px;
+	padding-bottom: 20px;
+	  margin-inline: auto;
+	  @include desktop-small{
+		width: auto;
+		padding: 20px;
+		opacity:1;
+		background: rgba(20, 8, 237, 0.5);
+	 	position: fixed;
+         width: 100%;
+         left: 0;
+        top: 0;
+         z-index: 999;
+		 
+      height: 70px;
+	 	
+		
+	 }
+
+	 @include tablet{
+		background: rgba(20, 8, 237, 0.5);
+	 }
+	  
+	
+	  
+			  
+	  
+  
+	&__logo {
+	  color: var(--White, #fff);
+	  font-family: Open Sans;
+	  font-size: 28px;
+	  font-style: normal;
+	  font-weight: 700;
+	  line-height: normal;
+	
+	  display: flex;
+	  gap: 10px;
+	  align-items: center;
+	  &:hover{
+		color: #65E4A3;
+		transition: var(--transition);
+	  }
+	}
+
+	&__aa{
+		color: #FFF;
+font-family: var(--ff);
+font-size: 43.25px;
+font-style: normal;
+font-weight: 700;
+line-height: 33.639px; /* 77.778% */
+	}
+  
+	&__nav {
+	  
+	  
+  
+	}
+  
+	&__backdrop {
+	}
+  
+	&__ul {
+	  display: flex;
+	  align-items: center;
+	  gap: 48px;
+	}
+  
+	&__li {
+	}
+  
+	&__a {
+	  color: var(--White, #FFF);
+  font-family:var(--ff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover{
+	color: #F0C020;
+	transition: var(--transition);
+	font-size: 18px;
+  }
+  }
+  
+	&__btn {
+	  
+	  color: var(--White, #FFF);
+	  font-family: Open Sans;
+	  font-size: 16px;
+	  font-style: normal;
+	  font-weight: 600;
+	  line-height: 24px; /* 150% */
+	  
+	 
+	  
+  }
+  
+	&__link {
+	  
+	  border-radius: 5px;
+	  background: var(--Accent, #ee6c4d);
+	  padding:  16px 46px;
+	  &:hover{
+		background-color: #65E4A3;
+		transition: var(--transition);
+		
+		
+	  }
+  
+	}
+  
+	&__button {
+	}
+  }
+  
+  .material-icons {
+	display: none;
+  }
+  .icon-close {
+	display: none;
+  }
+  .icon-menu,
+  .icon-close {
+	display: none;
+  }
+  
